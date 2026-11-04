@@ -1,0 +1,14 @@
+{
+  "name": "website-wimservicesllc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WIM Services, LLC — Florida business brokerage website",
+  "scripts": {
+    "build": "python3 src/build.py",
+    "dev": "python3 -m http.server 8099 --directory public",
+    "deploy": "python3 src/build.py && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
