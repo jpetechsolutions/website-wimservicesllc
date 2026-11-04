@@ -530,6 +530,7 @@ def jsonld_person():
         "email": SITE["email"],
         "worksFor": {"@id": SITE["base"] + "/#org"},
         "url": SITE["base"] + "/about",
+        "image": SITE["base"] + "/assets/img/warren-merrill.jpg",
         "hasCredential": [
             {
                 "@type": "EducationalOccupationalCredential",
@@ -1564,7 +1565,12 @@ def about():
       <div class="rv">
         <div class="folio">
           <div class="folio__ph">
-            <p class="folio__phtxt">Portrait<br>{SITE['person']}<br>to be added</p>
+            <picture>
+              <source srcset="/assets/img/warren-merrill.webp" type="image/webp">
+              <img src="/assets/img/warren-merrill.jpg" width="400" height="400"
+                   alt="{SITE['person']}, General Manager and Business Broker at {SITE['name']}"
+                   fetchpriority="high" decoding="async">
+            </picture>
           </div>
           <dl>
             <dt>Role</dt>

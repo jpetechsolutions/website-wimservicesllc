@@ -64,8 +64,10 @@ below. **Read the "Confirm with Warren" section before this goes live.**
    arrangement. The three addresses you sent (Lakewood Ranch / Kirkman Rd / N Andrews Ave)
    are **Truforte's branch offices**, not his.
 
-7. **Headshot.** There is a placeholder block on /about. Ask him for a real photo — do not
-   lift the one off his current site without permission.
+7. **Headshot — done (2026-11-03).** Photo supplied by James, now on /about
+   (`public/assets/img/warren-merrill.{webp,jpg}`, 400×400). Worth confirming Warren is happy
+   for it to be used, and asking whether he has a higher-resolution original — 400×400 is the
+   ceiling on how large it can be shown without softening.
 
 8. **Testimonial.** He has one Facebook recommendation (Kent Huffstutter, ~4 years old).
    Worth asking permission to quote it, and worth asking for 2–3 more from recent closings.
